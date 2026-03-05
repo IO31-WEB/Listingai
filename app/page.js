@@ -84,7 +84,7 @@ const css = `
   .pricing-period { font-size: 13px; color: var(--muted); margin-bottom: 32px; }
   .pricing-features { list-style: none; margin-bottom: 40px; }
   .pricing-features li { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 300; color: var(--muted); padding: 8px 0; border-bottom: 1px solid rgba(201,169,110,0.07); }
-  .pricing-features li::before { content: '\2014'; color: var(--gold); font-size: 12px; }
+  .pricing-features li::before { content: '-'; color: var(--gold); font-size: 12px; }
   .p-btn { width: 100%; padding: 14px; font-family: var(--sans); font-size: 12px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 3px; cursor: pointer; transition: all 0.25s; }
   .p-btn-out { background: transparent; border: 1px solid var(--border); color: var(--muted); }
   .p-btn-out:hover { border-color: var(--gold); color: var(--gold); }
